@@ -1,0 +1,2 @@
+# ObsidianNote
+ObsidianNoteback
