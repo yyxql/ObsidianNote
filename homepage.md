@@ -77,7 +77,7 @@
 
   // 3. 未完成的任务
   const tasks = dv.pages("").file.tasks
-    .where(t => !t.completed)
+    .where(t => !t.completed && !t.text.includes("🔁"))
     .sort((t1, t2) => {
       if (t1.due && t2.due) {
         return t1.due - t2.due;
