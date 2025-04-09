@@ -56,7 +56,7 @@
   // --- 生成首页内容 ---
 
   // 1. 目录导航
-  dv.header(2, "目录导航");
+  dv.header(2, "🚀 目录导航");
   const directoryNavigation = await listRecursive();
   dv.paragraph(directoryNavigation);
 
